@@ -1,0 +1,890 @@
+{
+ "course": "CAL00",
+ "courseTitle": "Pre-Calculus",
+ "instructor": "Instr. Ryan M. Vitalez, LPT",
+ "university": "Rizal Technological University",
+ "department": "Department of Earth and Space Sciences",
+ "program": "Bachelor of Science in Astronomy",
+ "logo": "https://raw.githubusercontent.com/mrvitalez/PreCalculus-online-module/main/img/rtu-logo.jpg",
+ "parts": [
+  {
+   "title": "Part I · Algebra and Functions",
+   "span": "Modules 1-2 (Long Examination 1)",
+   "blurb": "Real and complex numbers, expressions, equations and inequalities, graphs, lines and circles, then functions: their graphs, rates of change, transformations and inverses.",
+   "modules": [
+    1,
+    2
+   ],
+   "problemSet": 1
+  },
+  {
+   "title": "Part II · Polynomial, Rational, Exponential and Logarithmic Functions",
+   "span": "Modules 3-4 (Long Examination 2)",
+   "blurb": "Quadratic and polynomial functions, division and zeros, rational functions and inequalities, then exponential and logarithmic functions, their laws, equations, models and scales.",
+   "modules": [
+    3,
+    4
+   ],
+   "problemSet": 2
+  },
+  {
+   "title": "Part III · Trigonometry",
+   "span": "Modules 5-6 (Long Examination 3)",
+   "blurb": "The unit circle and the trigonometric functions of real numbers, their graphs, inverses and harmonic motion, then angles, right triangles and the Laws of Sines and Cosines.",
+   "modules": [
+    5,
+    6
+   ],
+   "problemSet": 3
+  }
+ ],
+ "problemSets": [
+  {
+   "n": 1,
+   "title": "Problem Set 1: Algebra and Functions",
+   "modules": [
+    1,
+    2
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Problem Set 2: Polynomial, Rational, Exponential and Logarithmic Functions",
+   "modules": [
+    3,
+    4
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Problem Set 3: Trigonometry",
+   "modules": [
+    5,
+    6
+   ]
+  }
+ ],
+ "modules": [
+  {
+   "n": 1,
+   "title": "Fundamentals of Algebra",
+   "tab": "M01 Fundamentals of Algebra",
+   "icon": "🔢",
+   "optional": false,
+   "overview": "We review the algebra that every later module rests on: real and complex numbers, exponents and radicals, polynomials and rational expressions, and equations and inequalities. Then we connect algebra to pictures with the coordinate plane, circles and lines, and learn to solve equations and inequalities graphically.",
+   "topics": [
+    "Real Numbers",
+    "Exponents and Radicals",
+    "Algebraic Expressions",
+    "Rational Expressions",
+    "Equations",
+    "Complex Numbers",
+    "Inequalities",
+    "The Coordinate Plane; Graphs of Equations; Circles",
+    "Lines",
+    "Solving Equations and Inequalities Graphically"
+   ],
+   "sections": [
+    [
+     "1.1",
+     "Real Numbers"
+    ],
+    [
+     "1.2",
+     "Exponents and Radicals"
+    ],
+    [
+     "1.3",
+     "Algebraic Expressions"
+    ],
+    [
+     "1.4",
+     "Rational Expressions"
+    ],
+    [
+     "1.5",
+     "Equations"
+    ],
+    [
+     "1.6",
+     "Complex Numbers"
+    ],
+    [
+     "1.7",
+     "Inequalities"
+    ],
+    [
+     "1.8",
+     "The Coordinate Plane; Graphs of Equations; Circles"
+    ],
+    [
+     "1.9",
+     "Lines"
+    ],
+    [
+     "1.10",
+     "Solving Equations and Inequalities Graphically"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q2",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q4",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       0.5,
+       2.5
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q5",
+     "type": "numeric",
+     "unit": "s",
+     "choices": 0
+    },
+    {
+     "id": "q6",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q7",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q8",
+     "type": "numeric",
+     "unit": "km",
+     "choices": 0
+    },
+    {
+     "id": "q9",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       -5,
+       5
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q10",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 1: The Algebra Toolkit"
+  },
+  {
+   "n": 2,
+   "title": "Functions",
+   "tab": "M02 Functions",
+   "icon": "📈",
+   "optional": false,
+   "overview": "What is a function, and what can its graph tell us? We use function notation, read graphs for intercepts, intervals and extrema, measure change with the average rate of change, build linear models, transform graphs (with Desmos), and undo functions with inverses.",
+   "topics": [
+    "Functions",
+    "Graphs of Functions",
+    "Getting Information from the Graph of a Function",
+    "Average Rate of Change of a Function",
+    "Linear Functions and Models",
+    "Transformations of Functions",
+    "One-to-One Functions and Their Inverses"
+   ],
+   "sections": [
+    [
+     "2.1",
+     "Functions"
+    ],
+    [
+     "2.2",
+     "Graphs of Functions"
+    ],
+    [
+     "2.3",
+     "Getting Information from the Graph of a Function"
+    ],
+    [
+     "2.4",
+     "Average Rate of Change of a Function"
+    ],
+    [
+     "2.5",
+     "Linear Functions and Models"
+    ],
+    [
+     "2.6",
+     "Transformations of Functions"
+    ],
+    [
+     "2.7",
+     "One-to-One Functions and Their Inverses"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q2",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "a",
+      "h"
+     ],
+     "domain": {
+      "a": [
+       -3,
+       3
+      ],
+      "h": [
+       0.5,
+       2
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q4",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q5",
+     "type": "numeric",
+     "unit": "m/s",
+     "choices": 0
+    },
+    {
+     "id": "q6",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q7",
+     "type": "numeric",
+     "unit": "pesos",
+     "choices": 0
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q9",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q10",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       -2,
+       2
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 2: Function Machine"
+  },
+  {
+   "n": 3,
+   "title": "Polynomial and Rational Functions",
+   "tab": "M03 Polynomial and Rational",
+   "icon": "🧮",
+   "optional": false,
+   "overview": "Quadratic models and the vertex, polynomial graphs and their zeros, polynomial division, the tools for finding real and complex zeros, and rational functions with their asymptotes. We finish by solving polynomial and rational inequalities with sign charts.",
+   "topics": [
+    "Quadratic Functions and Models",
+    "Polynomial Functions and Their Graphs",
+    "Dividing Polynomials",
+    "Real Zeros of Polynomials",
+    "Complex Zeros and the Fundamental Theorem of Algebra",
+    "Rational Functions",
+    "Polynomial and Rational Inequalities"
+   ],
+   "sections": [
+    [
+     "3.1",
+     "Quadratic Functions and Models"
+    ],
+    [
+     "3.2",
+     "Polynomial Functions and Their Graphs"
+    ],
+    [
+     "3.3",
+     "Dividing Polynomials"
+    ],
+    [
+     "3.4",
+     "Real Zeros of Polynomials"
+    ],
+    [
+     "3.5",
+     "Complex Zeros and the Fundamental Theorem of Algebra"
+    ],
+    [
+     "3.6",
+     "Rational Functions"
+    ],
+    [
+     "3.7",
+     "Polynomial and Rational Inequalities"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q2",
+     "type": "numeric",
+     "unit": "m²",
+     "choices": 0
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q4",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q5",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       -3,
+       3
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q6",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q7",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q9",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       -5,
+       5
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q10",
+     "type": "numeric",
+     "unit": "mounts",
+     "choices": 0
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 3: Hunting for Zeros"
+  },
+  {
+   "n": 4,
+   "title": "Exponential and Logarithmic Functions",
+   "tab": "M04 Exponential and Log",
+   "icon": "🌌",
+   "optional": false,
+   "overview": "Exponential functions describe quantities that grow or decay by the same factor in equal times: bacteria, savings in pesos, carbon-14. Their inverses, the logarithms, let us solve for exponents and power the logarithmic scales of science, from decibels and pH to the magnitudes of stars.",
+   "topics": [
+    "Exponential Functions",
+    "The Natural Exponential Function",
+    "Logarithmic Functions",
+    "Laws of Logarithms",
+    "Exponential and Logarithmic Equations",
+    "Modeling with Exponential Functions",
+    "Logarithmic Scales"
+   ],
+   "sections": [
+    [
+     "4.1",
+     "Exponential Functions"
+    ],
+    [
+     "4.2",
+     "The Natural Exponential Function"
+    ],
+    [
+     "4.3",
+     "Logarithmic Functions"
+    ],
+    [
+     "4.4",
+     "Laws of Logarithms"
+    ],
+    [
+     "4.5",
+     "Exponential and Logarithmic Equations"
+    ],
+    [
+     "4.6",
+     "Modeling with Exponential Functions"
+    ],
+    [
+     "4.7",
+     "Logarithmic Scales"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q2",
+     "type": "numeric",
+     "unit": "pesos",
+     "choices": 0
+    },
+    {
+     "id": "q3",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q4",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       0.5,
+       20
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q6",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q7",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q8",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "t"
+     ],
+     "domain": {
+      "t": [
+       0,
+       40
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q9",
+     "type": "numeric",
+     "unit": "times",
+     "choices": 0
+    },
+    {
+     "id": "q10",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 4: Powers, Logs and Starlight"
+  },
+  {
+   "n": 5,
+   "title": "Trigonometric Functions: Unit Circle Approach",
+   "tab": "M05 Trig Unit Circle",
+   "icon": "⭕",
+   "optional": false,
+   "overview": "We define sine, cosine and the other four trigonometric functions for real numbers using the unit circle, deriving the special terminal points from simple triangles. Then we graph them, invert them on restricted domains, and use them to model springs, tides and pulsating stars.",
+   "topics": [
+    "The Unit Circle",
+    "Trigonometric Functions of Real Numbers",
+    "Trigonometric Graphs",
+    "Inverse Trigonometric Functions and Their Graphs",
+    "Modeling Harmonic Motion"
+   ],
+   "sections": [
+    [
+     "5.1",
+     "The Unit Circle"
+    ],
+    [
+     "5.2",
+     "Trigonometric Functions of Real Numbers"
+    ],
+    [
+     "5.3",
+     "Trigonometric Graphs"
+    ],
+    [
+     "5.4",
+     "Inverse Trigonometric Functions and Their Graphs"
+    ],
+    [
+     "5.5",
+     "Modeling Harmonic Motion"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q2",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q3",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q4",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q6",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       -3,
+       3
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q7",
+     "type": "numeric",
+     "unit": "rad",
+     "choices": 0
+    },
+    {
+     "id": "q8",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q9",
+     "type": "numeric",
+     "unit": "ms",
+     "choices": 0
+    },
+    {
+     "id": "q10",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "t"
+     ],
+     "domain": {
+      "t": [
+       0,
+       2
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 5: Around the Unit Circle"
+  },
+  {
+   "n": 6,
+   "title": "Trigonometric Functions: Right Triangle Approach",
+   "tab": "M06 Trig Right Triangle",
+   "icon": "📐",
+   "optional": false,
+   "overview": "Angles in degrees and radians, the six trigonometric ratios from SOH-CAH-TOA and the special triangles, and trigonometric functions of any angle. We then use inverse trig functions and the Laws of Sines and Cosines to solve triangles in surveying, navigation and astronomy.",
+   "topics": [
+    "Angle Measure",
+    "Trigonometry of Right Triangles",
+    "Trigonometric Functions of Angles",
+    "Inverse Trigonometric Functions and Right Triangles",
+    "The Law of Sines",
+    "The Law of Cosines"
+   ],
+   "sections": [
+    [
+     "6.1",
+     "Angle Measure"
+    ],
+    [
+     "6.2",
+     "Trigonometry of Right Triangles"
+    ],
+    [
+     "6.3",
+     "Trigonometric Functions of Angles"
+    ],
+    [
+     "6.4",
+     "Inverse Trigonometric Functions and Right Triangles"
+    ],
+    [
+     "6.5",
+     "The Law of Sines"
+    ],
+    [
+     "6.6",
+     "The Law of Cosines"
+    ]
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "type": "numeric",
+     "unit": "°",
+     "choices": 0
+    },
+    {
+     "id": "q2",
+     "type": "numeric",
+     "unit": "°",
+     "choices": 0
+    },
+    {
+     "id": "q3",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q4",
+     "type": "numeric",
+     "unit": "m",
+     "choices": 0
+    },
+    {
+     "id": "q5",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q6",
+     "type": "numeric",
+     "unit": "",
+     "choices": 0
+    },
+    {
+     "id": "q7",
+     "type": "numeric",
+     "unit": "°",
+     "choices": 0
+    },
+    {
+     "id": "q8",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       0.1,
+       0.95
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "q9",
+     "type": "mc",
+     "unit": "",
+     "choices": 4
+    },
+    {
+     "id": "q10",
+     "type": "expr",
+     "unit": "",
+     "choices": 0,
+     "vars": [
+      "x"
+     ],
+     "domain": {
+      "x": [
+       0.2,
+       3.0
+      ]
+     },
+     "constant": false
+    },
+    {
+     "id": "reflection",
+     "type": "text",
+     "unit": "",
+     "choices": 0
+    }
+   ],
+   "activityTitle": "Activity 6: Measuring the Unreachable"
+  }
+ ]
+}

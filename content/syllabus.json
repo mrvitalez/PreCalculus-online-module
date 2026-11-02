@@ -1,0 +1,137 @@
+{
+ "source": "'25-'26 - CAL00 (Course Syllabus)",
+ "courseInfo": [
+  [
+   "Course code",
+   "CAL00"
+  ],
+  [
+   "Course title",
+   "Pre-Calculus"
+  ],
+  [
+   "Credit units",
+   "3 units"
+  ],
+  [
+   "Contact hours",
+   "3 hours lecture"
+  ],
+  [
+   "Pre-requisite",
+   "None"
+  ],
+  [
+   "Co-requisite",
+   "None"
+  ],
+  [
+   "Semester",
+   "First Semester, AY 2026-2027"
+  ],
+  [
+   "Instructor",
+   "Instr. Ryan M. Vitalez, LPT"
+  ]
+ ],
+ "description": "This course will revolve around the main topics of the General Mathematics and Pre-Calculus courses in Senior High School. Basic knowledge or experience of working with algebraic equations is necessary. The majority of the discussion will focus on building a good foundation for the CAL0X series by doing a lot of exercises targeted at improving the problem solving and mathematical thinking of students taking the course.",
+ "requirements": [
+  "Long Examinations",
+  "Written Works",
+  "Recitation Card"
+ ],
+ "grading": [
+  {
+   "component": "Long Examinations",
+   "weight": "40%",
+   "items": [
+    "Long Examination 1",
+    "Long Examination 2",
+    "Long Examination 3"
+   ]
+  },
+  {
+   "component": "Recitation",
+   "weight": "20%",
+   "items": []
+  },
+  {
+   "component": "Written Works",
+   "weight": "30%",
+   "items": [
+    "Quizzes",
+    "Activities",
+    "Problem Sets"
+   ]
+  },
+  {
+   "component": "Attendance",
+   "weight": "10%",
+   "items": []
+  }
+ ],
+ "transmutation": [
+  [
+   "97% to 100%",
+   "1.00"
+  ],
+  [
+   "93% to 96.99%",
+   "1.25"
+  ],
+  [
+   "89% to 92.99%",
+   "1.50"
+  ],
+  [
+   "85% to 88.99%",
+   "1.75"
+  ],
+  [
+   "81% to 84.99%",
+   "2.00"
+  ],
+  [
+   "77% to 80.99%",
+   "2.25"
+  ],
+  [
+   "73% to 76.99%",
+   "2.50"
+  ],
+  [
+   "69% to 72.99%",
+   "2.75"
+  ],
+  [
+   "65% to 68.99%",
+   "3.00"
+  ],
+  [
+   "64% to 64.99%",
+   "4.00"
+  ],
+  [
+   "63.99% and below",
+   "5.00"
+  ]
+ ],
+ "references": [
+  "Stewart, J., Redlin, L., &amp; Watson, S. <em>Precalculus: Mathematics for Calculus</em>. Cengage Learning.",
+  "Abramson, J. <em>Precalculus</em>, 2nd ed. OpenStax.",
+  "Abramson, J. <em>Algebra and Trigonometry</em>, 2nd ed. OpenStax."
+ ],
+ "videoCredit": "Lecture videos in the modules: Khan Academy (CC BY-NC-SA 3.0 US). Each video is cited on its module page.",
+ "consultation": [
+  {
+   "day": "Wednesday",
+   "time": "9:00 AM to 12:00 PM",
+   "room": "RnD AS611"
+  },
+  {
+   "day": "Friday",
+   "time": "9:00 AM to 11:00 AM",
+   "room": "RnD AS611"
+  }
+ ]
+}
